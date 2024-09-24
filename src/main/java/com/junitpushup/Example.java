@@ -81,7 +81,7 @@ public class Example {
                 .getAsDouble();
     }
 
-    // 11. Método para convertir una lista de enteros a lista de strings
+    // 11. Método para convertir una lista de strings a string
     public String convertirListaAString(List<String> lista) {
         return lista.stream()
                 .map(String::toUpperCase)
